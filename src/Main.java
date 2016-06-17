@@ -15,8 +15,8 @@ public class Main {
 			System.out.println(bier.getNode() + " " + bier.getCoordX() + " " + bier.getCoordY());
 		}*/
 
-		Laengenmessung laengenmessung = new Laengenmessung(127);
-		laengenmessung.setAbstandsmatrix(biergaerten);
+		Tour startTour = new Tour(biergaerten);
+		startTour.getStartTour();
 
 		ZufallszahlenGenerator zG = new ZufallszahlenGenerator();
 		zG.generate(1024);

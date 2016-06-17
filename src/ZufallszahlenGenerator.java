@@ -30,9 +30,9 @@ public class ZufallszahlenGenerator {
 			verteilung.put(seed, (verteilung.get(seed) + 1));
 		}
 		
-		for(int i = 1; i < 127; i++) {
+		/*for(int i = 1; i < 127; i++) {
 			System.out.println(i + ": " + verteilung.get(i));
-		}
+		}*/
 		
 		/*for(int i = 0; i < 127; i++) {
 			System.out.println(i + ": " + zufallsZahlen.get(i));

@@ -35,6 +35,10 @@ public class Laengenmessung {
 	public double[][] getAbstandsmatrix() {
 		return abstandsmatrix;
 	}
+	
+	public double getAbstandsMatrix(int i, int j) {
+		return abstandsmatrix[i][j];
+	}
 
 	public void setAbstandsmatrix(ArrayList<Biergarten> biergaerten) {
 
